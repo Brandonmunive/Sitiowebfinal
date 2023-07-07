@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    background: #ddd;
+}
+
+#contenido {
+    width: 950px;
+    margin: auto;
+}
+
+header {
+    width: 950px;
+    height: 100px;
+    background: #1e2a3e;
+}
+
+header h1 {
+    text-align: center;
+    color: white;
+    line-height: 100px;
+    font-family: 'Lobster', cursive;
+    font-size: 36px;
+    text-shadow: 2px 2px 4px #FF6542;
+}
+
+nav {
+    text-align: center;
+    background: #779FA1;
+}
+
+nav ul li {
+    display: inline-block;
+    padding: 10px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+    color: white;
+    text-shadow: 2px 2px 4px #000;
+}
+
+nav ul li a:hover {
+    color: #000;
+}
+
+section {
+    width: 750px;
+    height: 450px;
+    background: white;
+    float: left;
+    margin-top: 10px;
+    box-shadow: 0px 5px #000;
+}
+
+aside {
+    width: 185px;
+    height: 400px;
+    background: white;
+    float: left;
+    margin-top: 7px;
+    margin-left: 15px;
+    box-shadow: 0px 5px #000;
+}
+
+aside:nth-of-type(1) {
+    height: 45px;
+    background: #ddd;
+    text-align: center;
+
+}
+
+footer {
+    clear: both;
+    width: 950px;
+    height: 50px;
+    background: #FF6542;
+    text-align: center;
+    font-style: italic;
+    color: white;
+    text-shadow: 2px 2px 2px #5C5C5C;
+    line-height: 50px;
+}
+
+
+
+
+
+
+
+
+
